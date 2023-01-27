@@ -1,5 +1,5 @@
 h1 {
-  color: rgb(255, 0, 0);
+  color: #8585ff;
 }
 
 p {
@@ -8,5 +8,5 @@ p {
 
 /*background beige */
 body {
-  background-color: hsl(60, 56%, 91%);
+  background-color: #fcfcfc;
 }
