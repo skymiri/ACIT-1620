@@ -1,0 +1,12 @@
+h1 {
+  color: rgb(255, 0, 0);
+}
+
+p {
+  color: #0000ff;
+}
+
+/*background beige */
+body {
+  background-color: hsl(60, 56%, 91%);
+}
