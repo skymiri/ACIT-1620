@@ -1,0 +1,64 @@
+h1 {
+  color: #8585ff;
+}
+
+p {
+  color: #000000;
+}
+
+body {
+  background-color: #dfc7c7;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "img heading"
+    "nav nav";
+  text-align: center;
+  background-color: #a1cde1;
+}
+
+.grid--block {
+  display: grid;
+  text-align: center;
+  background-color: #a1cde1;
+}
+
+header ul {
+  display: inline-block;
+  margin: 0;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  display: block;
+  color: #333;
+}
+
+.nav {
+  grid-area: nav;
+  text-align: bottom;
+}
+
+section h2 {
+  grid-column: 1;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.image-container {
+  grid-area: img;
+  grid-column: 3;
+  justify-self: center;
+}
