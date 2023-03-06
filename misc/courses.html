@@ -7,64 +7,62 @@
     <title>Course page</title>
     <link rel="stylesheet" href="../css/stylesheet.css" />
     <style>
-      /* Mobile-first styles */
-      .container {
-        width: 100%;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-
-      .box {
-        width: 100%;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-      @media (min-width: 600px) {
-      }
       h1 {
         color: black;
       }
     </style>
   </head>
   <body>
+    <header>
+      <div class="grid grid--block">
+        <div class="nav">
+          <h1>My Courses</h1>
+          <ul>
+            <li>
+              <a href="../index.html">home</a>
+            </li>
+            <li>
+              <a href="school.html">School</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
       <div class="container">
-        <h1>My Courses</h1>
-        <ul>
-          <li>
-            <a href="../index.html">home</a>
-          </li>
-          <li>
-            <a href="school.html">School</a>
-          </li>
-        </ul>
-      </div>
-      <div class="box">
-        <a href="https://www.bcit.ca/outlines/acit1420/" target="_blank"
-          >ACIT 1420 - Introduction to Systems Administration</a
-        >
-        <p>Fall 2020</p>
-        <p>
-          This course introduces students to the configuration, maintenance, and
-          administration of a Windows laptop computer.
-        </p>
-      </div>
-      <div class="box">
-        <a href="https://www.bcit.ca/outlines/acit1620/" target="_blank"
-          >ACIT 1620 - Fundamental Web Technologies</a
-        >
-        <p>Fall 2020</p>
-        <p>
-          This course introduces the fundamental principles and techiques for
-          designing and developing effective Web sites.
-        </p>
-      </div>
-      <div class="box">
-        <a href="https://www.bcit.ca/outlines/acit1630/" target="_blank"
-          >ACIT 1630 Database System</a
-        >
-        <p>Fall 2020</p>
-        <p>This course covers relational and NoSQL database technologies</p>
+        <div class="box">
+          <div class="inerbox">
+            <a href="https://www.bcit.ca/outlines/acit1420/" target="_blank"
+              >ACIT 1420 - Introduction to Systems Administration</a
+            >
+            <p>Fall 2020</p>
+          </div>
+          <p>
+            This course introduces students to the configuration, maintenance,
+            and administration of a Windows laptop computer.
+          </p>
+        </div>
+        <div class="box">
+          <div class="inerbox">
+            <a href="https://www.bcit.ca/outlines/acit1620/" target="_blank"
+              >ACIT 1620 - Fundamental Web Technologies</a
+            >
+            <p>Fall 2020</p>
+          </div>
+          <p>
+            This course introduces the fundamental principles and techiques for
+            designing and developing effective Web sites.
+          </p>
+        </div>
+        <div class="box">
+          <div class="inerbox">
+            <a href="https://www.bcit.ca/outlines/acit1630/" target="_blank"
+              >ACIT 1630 Database System</a
+            >
+            <p>Fall 2020</p>
+          </div>
+          <p>This course covers relational and NoSQL database technologies</p>
+        </div>
       </div>
     </main>
     <div class="Footer">

@@ -30,11 +30,12 @@ body {
 
 header ul {
   display: inline-block;
-  margin: 0;
+  margin: 10;
 }
 
 header li {
   display: inline-block;
+  margin: 10;
 }
 
 header a {
@@ -66,19 +67,42 @@ section h2 {
   justify-self: center;
 }
 
+.container {
+  text-align: left;
+
+  display: grid;
+}
 .box {
-  display: flex;
+  display: grid;
   flex-direction: column;
-  border: 2px solid blue;
-  justify-content: flex-start;
-  padding: 20px;
+  grid-auto-flow: column;
 }
 
-.container {
+.inerbox {
+  flex-direction: column;
+  align-items: left;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  margin: 5px;
+}
+
+.box:nth-child(1) {
+}
+.box:nth-child(2) {
+}
+.box:nth-child(3) {
+}
+
+.Footer {
   text-align: center;
   background-color: #a1cde1;
-  margin-left: 10px;
-  float: left;
-  margin-right: 20px;
-  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .box {
+    flex-direction: row;
+    align-items: center;
+  }
 }
