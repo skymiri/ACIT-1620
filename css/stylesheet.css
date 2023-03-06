@@ -71,11 +71,14 @@ section h2 {
   flex-direction: column;
   border: 2px solid blue;
   justify-content: flex-start;
+  padding: 20px;
 }
 
 .container {
   text-align: center;
   background-color: #a1cde1;
-  list-style-type: none;
   margin-left: 10px;
+  float: left;
+  margin-right: 20px;
+  padding: 20px;
 }
