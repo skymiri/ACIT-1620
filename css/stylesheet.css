@@ -6,6 +6,9 @@ p {
   color: #000000;
 }
 
+ul {
+  list-style-type: none;
+}
 body {
   background-color: #dfc7c7;
 }
@@ -61,4 +64,18 @@ section h2 {
   grid-area: img;
   grid-column: 3;
   justify-self: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  justify-content: flex-start;
+}
+
+.container {
+  text-align: center;
+  background-color: #a1cde1;
+  list-style-type: none;
+  margin-left: 10px;
 }

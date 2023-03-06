@@ -1,24 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Course page</title>
-    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="../css/stylesheet.css" />
+    <style>
+      /* Mobile-first styles */
+      .container {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .box {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      @media only screen and (min-width: 768px) {
+      }
+      h1 {
+        color: black;
+      }
+    </style>
   </head>
   <body>
     <main>
-      <article>
-        <h2>A list of courses</h2>
+      <div class="container">
+        <h1>My Courses</h1>
         <ul>
-          <li>ACIT 1620</li>
           <li>
-            ACIT 1630
-            <a href="https://www.bcit.ca/outlines/20231089204" target="_blank">
-              Course outline
-            </a>
+            <a href="../index.html">home</a>
           </li>
-          <li>ACIT 1515</li>
+          <li>
+            <a href="school.html">School</a>
+          </li>
         </ul>
-      </article>
+      </div>
+      <div class="box">
+        <a href="https://www.bcit.ca/outlines/acit1420/" target="_blank"
+          >ACIT 1420 - Introduction to Systems Administration</a
+        >
+      </div>
+      <div class="box">
+        <a href="https://www.bcit.ca/outlines/acit1620/" target="_blank"
+          >ACIT 1620 - Fundamental Web Technologies</a
+        >
+      </div>
+      <div class="box">
+        <a href="https://www.bcit.ca/outlines/acit1630/" target="_blank"
+          >ACIT 1630 Database System</a
+        >
+      </div>
     </main>
   </body>
 </html>
